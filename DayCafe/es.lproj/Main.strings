@@ -1,0 +1,27 @@
+
+/* Class = "UINavigationItem"; title = "Resumen del pedido"; ObjectID = "9lB-0K-bcy"; */
+"9lB-0K-bcy.title" = "Resumen del pedido";
+
+/* Class = "UINavigationItem"; title = "Escoja su bebida"; ObjectID = "KAy-TM-Qvl"; */
+"KAy-TM-Qvl.title" = "Escoja su bebida";
+
+/* Class = "UILabel"; text = "Morada"; ObjectID = "XPl-m7-fhE"; */
+"XPl-m7-fhE.text" = "Morada";
+
+/* Class = "UILabel"; text = "Gracias por tu pedido"; ObjectID = "Zj3-D2-WSA"; */
+"Zj3-D2-WSA.text" = "Gracias por tu pedido";
+
+/* Class = "UILabel"; text = "$8.39"; ObjectID = "fu3-uy-Caf"; */
+"fu3-uy-Caf.text" = "$8.39";
+
+/* Class = "UILabel"; text = "Lo enviaremos en unos minutos a la mesa:"; ObjectID = "jJa-K3-hwO"; */
+"jJa-K3-hwO.text" = "Lo enviaremos en unos minutos a la mesa:";
+
+/* Class = "UILabel"; text = "Beef with pasta"; ObjectID = "nYa-48-Zqq"; */
+"nYa-48-Zqq.text" = "Carne con pasta";
+
+/* Class = "UILabel"; text = "Tu pedido esta en proceso..."; ObjectID = "tcy-D8-GQS"; */
+"tcy-D8-GQS.text" = "Tu pedido esta en proceso...";
+
+/* Class = "UILabel"; text = "Un momento"; ObjectID = "wYw-SM-dyL"; */
+"wYw-SM-dyL.text" = "Un momento";

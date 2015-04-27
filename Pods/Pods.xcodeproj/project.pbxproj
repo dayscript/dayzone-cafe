@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BE27AD728146FDF3B3A202 /* ESTBeaconFirmwareVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4870D32D1FB1EA41AD3E8D /* ESTBeaconFirmwareVO.h */; };
+		03862E651F1CB143C4B7E449 /* ESTBeaconVO.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EF95DD21C25BFC717B061A /* ESTBeaconVO.h */; };
+		03F3E2861E8E2BEC850F1D63 /* EstimoteSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7C1D540242A11E88311876 /* EstimoteSDK.h */; };
+		0BB2ABCE50C0D9254EC314C3 /* ESTNearableRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 54458A57E3E30E7F3ECBFF5A /* ESTNearableRule.h */; };
+		104300FF43371131FEF6467F /* ESTBluetoothBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E82A2E3AEA3A1F40D8FC9C /* ESTBluetoothBeacon.h */; };
+		1140E319597761AD9E563679 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA96E9933CB915EF3108E8E6 /* MobileCoreServices.framework */; };
+		2FE804FD344E26F7A9D160DD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62953579EAAA527D975F5DDF /* SystemConfiguration.framework */; };
+		3108306E3885DF5F3BE24B0E /* ESTTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF79E3595612072E721B574 /* ESTTrigger.h */; };
+		32FB4E1A69EE9B324DA6EDDA /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB140FA98129CB1030089A5 /* Pods-dummy.m */; };
+		38BA458D4E5E7D0380E98965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282F897AB240F6F1202A8805 /* Foundation.framework */; };
+		5491C33346D068C4994455F3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF0C9E8B80BB59B33685E46 /* CoreLocation.framework */; };
+		66A70887656410C9E74CA360 /* ESTRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 713DED7504697335CA21716E /* ESTRule.h */; };
+		674FA8EEA62436BD6BA0F882 /* ESTProximityRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5561493E762AD0949E36BD /* ESTProximityRule.h */; };
+		836AD9A08147718AC41842D3 /* ESTNotificationTransporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B57F204624BBC7C4EB0B45A /* ESTNotificationTransporter.h */; };
+		8468C24B6F18F3F6254C0145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282F897AB240F6F1202A8805 /* Foundation.framework */; };
+		84C204B8B24FA8AE170173FB /* ESTDateRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAC8373D883D102DC9F814E /* ESTDateRule.h */; };
+		8AB26FF7FD0F9A5E38FA1076 /* ESTUtilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA0E2D9391BB16BB941B932 /* ESTUtilityManager.h */; };
+		8CCB2D10B4E2249EF0FB944E /* ESTSecureBeaconManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FED0791B4A19E7C27F621AC /* ESTSecureBeaconManager.h */; };
+		9437D37DCD0F04A79FCE52A9 /* ESTBulkUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1E1D13F26FC276777AEE30 /* ESTBulkUpdater.h */; };
+		94EFA145C30A9BA0C0A8D9B8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72111489C4BB4656251FC34 /* CoreBluetooth.framework */; };
+		99C0C5879BFBC9367B41C19A /* ESTBeaconConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B670D6A245D3610E6FF62B9 /* ESTBeaconConnection.h */; };
+		9E45060E2A614ED721AF175A /* ESTBeaconManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A39FA69C3DE9867C2880612C /* ESTBeaconManager.h */; };
+		A1E8CA3F77CDA1C9A05F78BF /* ESTBeaconManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6F98851507C6CA00507F3C /* ESTBeaconManagerDelegate.h */; };
+		A1F7807831B675B8F34DE1DE /* ESTMotionRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9882C33658D40F04540048 /* ESTMotionRule.h */; };
+		A4226185CBEC7E7EB6D09420 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74960F250D19DC9533CFB121 /* UIKit.framework */; };
+		A50A240D5F5471C0A066ECCE /* ESTBeaconUpdateInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E97F64CB62FA8EF81977E3ED /* ESTBeaconUpdateInfo.h */; };
+		A70E036BA913846AD1EF2560 /* ESTDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F04498AD9D5BB4398C9DB9 /* ESTDefinitions.h */; };
+		A71E8032C4361E8DD9D76906 /* ESTFirmwareInfoVO.h in Headers */ = {isa = PBXBuildFile; fileRef = DA89055E7823BA4B01592EFC /* ESTFirmwareInfoVO.h */; };
+		A7E1CFC48F60B4463FD2D077 /* ESTOrientationRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B4F4D68B5FD8C0E1B8BB60 /* ESTOrientationRule.h */; };
+		A8676C4E848F4E299FE1F9A7 /* ESTBeaconUpdateConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AEFEAC6E229EE402A96CD6AE /* ESTBeaconUpdateConfig.h */; };
+		B4A8F186D3DEFA4FD7FD393F /* ESTNearableDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E06BAB00724AB9E066971F81 /* ESTNearableDefinitions.h */; };
+		B846214B4D803438FA77B875 /* Pods-EstimoteSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2ED1846FDCD097F4C6DAD3 /* Pods-EstimoteSDK-dummy.m */; };
+		BE34CA0E924905B37C8A8F0D /* ESTBeaconDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D17EE10C23475D542B88402 /* ESTBeaconDefinitions.h */; };
+		C7CC9ABA00FE445439171474 /* ESTTriggerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D10D0D5E0F7FCB935150A8A4 /* ESTTriggerManager.h */; };
+		CA90A5866D76357DAE2FC4E4 /* ESTNearableManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC2F0184232CAEB42C65AAE /* ESTNearableManager.h */; };
+		D0A6F645F0BF6EFC1F7C79E4 /* ESTSimulatedNearableManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 035540A65F8E1CF8358A8489 /* ESTSimulatedNearableManager.h */; };
+		EE2FFD032B41D5164B8E75C4 /* ESTCloudManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9634DCB85F179987A6837B82 /* ESTCloudManager.h */; };
+		F406036A1E055736DDED1CFF /* ESTNearable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9A846F10A031C1A1324ECF /* ESTNearable.h */; };
+		F6C2540C1A477318A6DCE9F3 /* ESTTemperatureRule.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C76A1766A085C6FC0CDC2A /* ESTTemperatureRule.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FEB3F83D79B277BAFB1331F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45091651E1468CE4B190DCFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06895E4E0ED80C8A05A7E7D1;
+			remoteInfo = "Pods-EstimoteSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035540A65F8E1CF8358A8489 /* ESTSimulatedNearableManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTSimulatedNearableManager.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTSimulatedNearableManager.h; sourceTree = "<group>"; };
+		0C5561493E762AD0949E36BD /* ESTProximityRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTProximityRule.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTProximityRule.h; sourceTree = "<group>"; };
+		0CF0C9E8B80BB59B33685E46 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		0E7C1D540242A11E88311876 /* EstimoteSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EstimoteSDK.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/EstimoteSDK.h; sourceTree = "<group>"; };
+		0E9882C33658D40F04540048 /* ESTMotionRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTMotionRule.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTMotionRule.h; sourceTree = "<group>"; };
+		18B4F4D68B5FD8C0E1B8BB60 /* ESTOrientationRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTOrientationRule.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTOrientationRule.h; sourceTree = "<group>"; };
+		1AC2F0184232CAEB42C65AAE /* ESTNearableManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTNearableManager.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTNearableManager.h; sourceTree = "<group>"; };
+		1B57F204624BBC7C4EB0B45A /* ESTNotificationTransporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTNotificationTransporter.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTNotificationTransporter.h; sourceTree = "<group>"; };
+		1BF6EB4F774DE8B08513207B /* Pods-EstimoteSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EstimoteSDK-prefix.pch"; sourceTree = "<group>"; };
+		282F897AB240F6F1202A8805 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2E92E49CAB97709A1C52C3F3 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3683B28023BD85CDA7D3FE34 /* Pods-EstimoteSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EstimoteSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		3BE73A978F4C7FB179B1DC39 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = EstimoteSDK/EstimoteSDK.framework; sourceTree = "<group>"; };
+		3D17EE10C23475D542B88402 /* ESTBeaconDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconDefinitions.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTBeaconDefinitions.h; sourceTree = "<group>"; };
+		4330D55C7AA8CE7EE06DDAE8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		54458A57E3E30E7F3ECBFF5A /* ESTNearableRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTNearableRule.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTNearableRule.h; sourceTree = "<group>"; };
+		5E9A846F10A031C1A1324ECF /* ESTNearable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTNearable.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTNearable.h; sourceTree = "<group>"; };
+		5FED0791B4A19E7C27F621AC /* ESTSecureBeaconManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTSecureBeaconManager.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTSecureBeaconManager.h; sourceTree = "<group>"; };
+		62953579EAAA527D975F5DDF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		68D7CE4773B005DCA0B186AB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		6ACBD90F342068E1598AA608 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		713DED7504697335CA21716E /* ESTRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTRule.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTRule.h; sourceTree = "<group>"; };
+		74960F250D19DC9533CFB121 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7BAC8373D883D102DC9F814E /* ESTDateRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTDateRule.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTDateRule.h; sourceTree = "<group>"; };
+		7CE9C9EEB407B7F401958201 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		7CF79E3595612072E721B574 /* ESTTrigger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTTrigger.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTTrigger.h; sourceTree = "<group>"; };
+		7E5EFC421C4BD8E553DB96C1 /* libPods-EstimoteSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EstimoteSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6B9DAB7E822E696BBD3EAF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F4870D32D1FB1EA41AD3E8D /* ESTBeaconFirmwareVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconFirmwareVO.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTBeaconFirmwareVO.h; sourceTree = "<group>"; };
+		9634DCB85F179987A6837B82 /* ESTCloudManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTCloudManager.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTCloudManager.h; sourceTree = "<group>"; };
+		9B670D6A245D3610E6FF62B9 /* ESTBeaconConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconConnection.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTBeaconConnection.h; sourceTree = "<group>"; };
+		9D2ED1846FDCD097F4C6DAD3 /* Pods-EstimoteSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EstimoteSDK-dummy.m"; sourceTree = "<group>"; };
+		A39FA69C3DE9867C2880612C /* ESTBeaconManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconManager.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTBeaconManager.h; sourceTree = "<group>"; };
+		A72111489C4BB4656251FC34 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		AEFEAC6E229EE402A96CD6AE /* ESTBeaconUpdateConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconUpdateConfig.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTBeaconUpdateConfig.h; sourceTree = "<group>"; };
+		B3D359DA14EC755E9342881C /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		B58DB1647676C672EA228453 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CA96E9933CB915EF3108E8E6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		D10D0D5E0F7FCB935150A8A4 /* ESTTriggerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTTriggerManager.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTTriggerManager.h; sourceTree = "<group>"; };
+		D7C76A1766A085C6FC0CDC2A /* ESTTemperatureRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTTemperatureRule.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTTemperatureRule.h; sourceTree = "<group>"; };
+		DA89055E7823BA4B01592EFC /* ESTFirmwareInfoVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTFirmwareInfoVO.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTFirmwareInfoVO.h; sourceTree = "<group>"; };
+		E06BAB00724AB9E066971F81 /* ESTNearableDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTNearableDefinitions.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTNearableDefinitions.h; sourceTree = "<group>"; };
+		E1EF95DD21C25BFC717B061A /* ESTBeaconVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconVO.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTBeaconVO.h; sourceTree = "<group>"; };
+		E97F64CB62FA8EF81977E3ED /* ESTBeaconUpdateInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconUpdateInfo.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTBeaconUpdateInfo.h; sourceTree = "<group>"; };
+		EB96A56AD26D8A0A0D458EC6 /* Pods-EstimoteSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EstimoteSDK.xcconfig"; sourceTree = "<group>"; };
+		EF1E1D13F26FC276777AEE30 /* ESTBulkUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBulkUpdater.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTBulkUpdater.h; sourceTree = "<group>"; };
+		EF6F98851507C6CA00507F3C /* ESTBeaconManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconManagerDelegate.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTBeaconManagerDelegate.h; sourceTree = "<group>"; };
+		EFB140FA98129CB1030089A5 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		F0F04498AD9D5BB4398C9DB9 /* ESTDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTDefinitions.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTDefinitions.h; sourceTree = "<group>"; };
+		F7E82A2E3AEA3A1F40D8FC9C /* ESTBluetoothBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBluetoothBeacon.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTBluetoothBeacon.h; sourceTree = "<group>"; };
+		FFA0E2D9391BB16BB941B932 /* ESTUtilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTUtilityManager.h; path = EstimoteSDK/EstimoteSDK.framework/Versions/A/Headers/ESTUtilityManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05A72C63D4654712CCD641B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BA458D4E5E7D0380E98965 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955CFB0D292FE930A4DCD24B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EFA145C30A9BA0C0A8D9B8 /* CoreBluetooth.framework in Frameworks */,
+				5491C33346D068C4994455F3 /* CoreLocation.framework in Frameworks */,
+				8468C24B6F18F3F6254C0145 /* Foundation.framework in Frameworks */,
+				1140E319597761AD9E563679 /* MobileCoreServices.framework in Frameworks */,
+				2FE804FD344E26F7A9D160DD /* SystemConfiguration.framework in Frameworks */,
+				A4226185CBEC7E7EB6D09420 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286CC59483620878B725F85A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E3D62FC1014BB58352EA61B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47C5F18DE786E6AA10BC834F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB96A56AD26D8A0A0D458EC6 /* Pods-EstimoteSDK.xcconfig */,
+				3683B28023BD85CDA7D3FE34 /* Pods-EstimoteSDK-Private.xcconfig */,
+				9D2ED1846FDCD097F4C6DAD3 /* Pods-EstimoteSDK-dummy.m */,
+				1BF6EB4F774DE8B08513207B /* Pods-EstimoteSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-EstimoteSDK";
+			sourceTree = "<group>";
+		};
+		48B7BCC2533DFE5A573F68BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C34DE371ACA8A3BFF9B78451 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4E013B0E04967FAAF05B0A0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BE73A978F4C7FB179B1DC39 /* EstimoteSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E3D62FC1014BB58352EA61B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A72111489C4BB4656251FC34 /* CoreBluetooth.framework */,
+				0CF0C9E8B80BB59B33685E46 /* CoreLocation.framework */,
+				282F897AB240F6F1202A8805 /* Foundation.framework */,
+				CA96E9933CB915EF3108E8E6 /* MobileCoreServices.framework */,
+				62953579EAAA527D975F5DDF /* SystemConfiguration.framework */,
+				74960F250D19DC9533CFB121 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		961AA5BFEFA8C87EB8906E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4330D55C7AA8CE7EE06DDAE8 /* libPods.a */,
+				7E5EFC421C4BD8E553DB96C1 /* libPods-EstimoteSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34DE371ACA8A3BFF9B78451 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E92E49CAB97709A1C52C3F3 /* Pods-acknowledgements.markdown */,
+				B3D359DA14EC755E9342881C /* Pods-acknowledgements.plist */,
+				EFB140FA98129CB1030089A5 /* Pods-dummy.m */,
+				6ACBD90F342068E1598AA608 /* Pods-environment.h */,
+				B58DB1647676C672EA228453 /* Pods-resources.sh */,
+				68D7CE4773B005DCA0B186AB /* Pods.debug.xcconfig */,
+				7CE9C9EEB407B7F401958201 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		C5E2DA73B9BBA9B8A726006B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5EF1C7599E7F6176F0FFC5D /* EstimoteSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5EF1C7599E7F6176F0FFC5D /* EstimoteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9B670D6A245D3610E6FF62B9 /* ESTBeaconConnection.h */,
+				3D17EE10C23475D542B88402 /* ESTBeaconDefinitions.h */,
+				8F4870D32D1FB1EA41AD3E8D /* ESTBeaconFirmwareVO.h */,
+				A39FA69C3DE9867C2880612C /* ESTBeaconManager.h */,
+				EF6F98851507C6CA00507F3C /* ESTBeaconManagerDelegate.h */,
+				AEFEAC6E229EE402A96CD6AE /* ESTBeaconUpdateConfig.h */,
+				E97F64CB62FA8EF81977E3ED /* ESTBeaconUpdateInfo.h */,
+				E1EF95DD21C25BFC717B061A /* ESTBeaconVO.h */,
+				F7E82A2E3AEA3A1F40D8FC9C /* ESTBluetoothBeacon.h */,
+				EF1E1D13F26FC276777AEE30 /* ESTBulkUpdater.h */,
+				9634DCB85F179987A6837B82 /* ESTCloudManager.h */,
+				7BAC8373D883D102DC9F814E /* ESTDateRule.h */,
+				F0F04498AD9D5BB4398C9DB9 /* ESTDefinitions.h */,
+				DA89055E7823BA4B01592EFC /* ESTFirmwareInfoVO.h */,
+				0E9882C33658D40F04540048 /* ESTMotionRule.h */,
+				5E9A846F10A031C1A1324ECF /* ESTNearable.h */,
+				E06BAB00724AB9E066971F81 /* ESTNearableDefinitions.h */,
+				1AC2F0184232CAEB42C65AAE /* ESTNearableManager.h */,
+				54458A57E3E30E7F3ECBFF5A /* ESTNearableRule.h */,
+				1B57F204624BBC7C4EB0B45A /* ESTNotificationTransporter.h */,
+				18B4F4D68B5FD8C0E1B8BB60 /* ESTOrientationRule.h */,
+				0C5561493E762AD0949E36BD /* ESTProximityRule.h */,
+				713DED7504697335CA21716E /* ESTRule.h */,
+				5FED0791B4A19E7C27F621AC /* ESTSecureBeaconManager.h */,
+				035540A65F8E1CF8358A8489 /* ESTSimulatedNearableManager.h */,
+				D7C76A1766A085C6FC0CDC2A /* ESTTemperatureRule.h */,
+				7CF79E3595612072E721B574 /* ESTTrigger.h */,
+				D10D0D5E0F7FCB935150A8A4 /* ESTTriggerManager.h */,
+				FFA0E2D9391BB16BB941B932 /* ESTUtilityManager.h */,
+				0E7C1D540242A11E88311876 /* EstimoteSDK.h */,
+				4E013B0E04967FAAF05B0A0C /* Frameworks */,
+				47C5F18DE786E6AA10BC834F /* Support Files */,
+			);
+			path = EstimoteSDK;
+			sourceTree = "<group>";
+		};
+		D1A3EAB41A26A248B90C176D = {
+			isa = PBXGroup;
+			children = (
+				7F6B9DAB7E822E696BBD3EAF /* Podfile */,
+				286CC59483620878B725F85A /* Frameworks */,
+				C5E2DA73B9BBA9B8A726006B /* Pods */,
+				961AA5BFEFA8C87EB8906E62 /* Products */,
+				48B7BCC2533DFE5A573F68BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EF9668D89838232A7A2E1845 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C0C5879BFBC9367B41C19A /* ESTBeaconConnection.h in Headers */,
+				BE34CA0E924905B37C8A8F0D /* ESTBeaconDefinitions.h in Headers */,
+				00BE27AD728146FDF3B3A202 /* ESTBeaconFirmwareVO.h in Headers */,
+				9E45060E2A614ED721AF175A /* ESTBeaconManager.h in Headers */,
+				A1E8CA3F77CDA1C9A05F78BF /* ESTBeaconManagerDelegate.h in Headers */,
+				A8676C4E848F4E299FE1F9A7 /* ESTBeaconUpdateConfig.h in Headers */,
+				A50A240D5F5471C0A066ECCE /* ESTBeaconUpdateInfo.h in Headers */,
+				03862E651F1CB143C4B7E449 /* ESTBeaconVO.h in Headers */,
+				104300FF43371131FEF6467F /* ESTBluetoothBeacon.h in Headers */,
+				9437D37DCD0F04A79FCE52A9 /* ESTBulkUpdater.h in Headers */,
+				EE2FFD032B41D5164B8E75C4 /* ESTCloudManager.h in Headers */,
+				84C204B8B24FA8AE170173FB /* ESTDateRule.h in Headers */,
+				A70E036BA913846AD1EF2560 /* ESTDefinitions.h in Headers */,
+				A71E8032C4361E8DD9D76906 /* ESTFirmwareInfoVO.h in Headers */,
+				A1F7807831B675B8F34DE1DE /* ESTMotionRule.h in Headers */,
+				F406036A1E055736DDED1CFF /* ESTNearable.h in Headers */,
+				B4A8F186D3DEFA4FD7FD393F /* ESTNearableDefinitions.h in Headers */,
+				CA90A5866D76357DAE2FC4E4 /* ESTNearableManager.h in Headers */,
+				0BB2ABCE50C0D9254EC314C3 /* ESTNearableRule.h in Headers */,
+				836AD9A08147718AC41842D3 /* ESTNotificationTransporter.h in Headers */,
+				A7E1CFC48F60B4463FD2D077 /* ESTOrientationRule.h in Headers */,
+				674FA8EEA62436BD6BA0F882 /* ESTProximityRule.h in Headers */,
+				66A70887656410C9E74CA360 /* ESTRule.h in Headers */,
+				8CCB2D10B4E2249EF0FB944E /* ESTSecureBeaconManager.h in Headers */,
+				D0A6F645F0BF6EFC1F7C79E4 /* ESTSimulatedNearableManager.h in Headers */,
+				F6C2540C1A477318A6DCE9F3 /* ESTTemperatureRule.h in Headers */,
+				3108306E3885DF5F3BE24B0E /* ESTTrigger.h in Headers */,
+				C7CC9ABA00FE445439171474 /* ESTTriggerManager.h in Headers */,
+				8AB26FF7FD0F9A5E38FA1076 /* ESTUtilityManager.h in Headers */,
+				03F3E2861E8E2BEC850F1D63 /* EstimoteSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06895E4E0ED80C8A05A7E7D1 /* Pods-EstimoteSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9578948206F6DB891555A8CD /* Build configuration list for PBXNativeTarget "Pods-EstimoteSDK" */;
+			buildPhases = (
+				6C529013D82E2F70E2D5EB1C /* Sources */,
+				955CFB0D292FE930A4DCD24B /* Frameworks */,
+				EF9668D89838232A7A2E1845 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EstimoteSDK";
+			productName = "Pods-EstimoteSDK";
+			productReference = 7E5EFC421C4BD8E553DB96C1 /* libPods-EstimoteSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F414C4FAB2C6CF54D5665DBB /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1D998B5F7B77630EB45F17 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				02A2414C30D954B6D1DCC84B /* Sources */,
+				05A72C63D4654712CCD641B4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF61FB2FF02AB8759E19A4E1 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 4330D55C7AA8CE7EE06DDAE8 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45091651E1468CE4B190DCFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 392D19047CFA56A3686A58E3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1A3EAB41A26A248B90C176D;
+			productRefGroup = 961AA5BFEFA8C87EB8906E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F414C4FAB2C6CF54D5665DBB /* Pods */,
+				06895E4E0ED80C8A05A7E7D1 /* Pods-EstimoteSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02A2414C30D954B6D1DCC84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FB4E1A69EE9B324DA6EDDA /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C529013D82E2F70E2D5EB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B846214B4D803438FA77B875 /* Pods-EstimoteSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF61FB2FF02AB8759E19A4E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EstimoteSDK";
+			target = 06895E4E0ED80C8A05A7E7D1 /* Pods-EstimoteSDK */;
+			targetProxy = 2FEB3F83D79B277BAFB1331F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D958F4263F2124833CA4F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3683B28023BD85CDA7D3FE34 /* Pods-EstimoteSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EstimoteSDK/Pods-EstimoteSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2EC3D88AB7725E4633800CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3683B28023BD85CDA7D3FE34 /* Pods-EstimoteSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EstimoteSDK/Pods-EstimoteSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		30B58FF374087077EDF4F740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3221D742569B28E2845F8990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D7CE4773B005DCA0B186AB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		60A9D240D82343262B5F986E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE9C9EEB407B7F401958201 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BC5CC23A5D4AFF1D648FC0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E1D998B5F7B77630EB45F17 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3221D742569B28E2845F8990 /* Debug */,
+				60A9D240D82343262B5F986E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392D19047CFA56A3686A58E3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B58FF374087077EDF4F740 /* Debug */,
+				BC5CC23A5D4AFF1D648FC0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9578948206F6DB891555A8CD /* Build configuration list for PBXNativeTarget "Pods-EstimoteSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D958F4263F2124833CA4F72 /* Debug */,
+				2EC3D88AB7725E4633800CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45091651E1468CE4B190DCFC /* Project object */;
+}
